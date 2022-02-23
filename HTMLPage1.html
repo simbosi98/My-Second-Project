@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+    <script src="https://kit.fontawesome.com/64bc9e1dbd.js" crossorigin="anonymous"></script>
+    <title>MetaHash</title>
+</head>
+
+<body>
+  <div class="LogoNadpis">
+      <H1>@SimboSi98</H1>
+  </div>
+
+  <div id="navbar" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <div class="bar4"></div>
+  </div>
+    
+  <div class="uvodnynadpis">
+    <p>Excited <br> developer. <br> Fast and<br> satisfied.</p>
+  </div>
+
+  <section class="transaction-statistic">
+    <div class="statistic">
+      <span class="statisticText">Transactions per second</span>
+      <span class="statisticValue">10,000</span>
+    </div>
+
+    <div class="statistic">
+      <span class="statisticText">Total transactions</span>
+      <span class="statisticValue">1,000,874,454</span>
+    </div>
+
+    <div class="statistic">
+      <span class="statisticText">Avg. cost per transaction</span>
+      <span class="statisticValue">$0.00025</span>
+    </div>
+
+    <div class="statistic">
+      <span class="statisticText">Validator nodes</span>
+      <span class="statisticValue">1,225</span>
+    </div>
+
+  </section>
+<!--Crypto icons-->
+  <div class="Icons">
+    <i id="BTCicon" class="fab fa-btc fa-2x"></i>
+    <i id="ETHicon" class="fab fa-ethereum fa-2x"></i>
+    <img id="SOLicon" src="images/solana-sol-logo.svg">
+    <img id="HARMONYicon" src="images/harmony-one-logo.svg">
+    <img id="headingIMG" src="images/future_transparent.png">
+  </div>
+<!--CV CARD-->
+  <div class="container">
+    <div class="card">
+      <div class="ETHimage">
+        <div class="circle">
+          <img src="images/impact_transparent.png">
+        </div>
+        <div class="info">
+          <h2 class="title">My CV</h2>
+          <div class="purchase">
+            <a href="https://www.profesia.sk/uchadzac/zivotopis/9d7ee19c-0b58-11ec-a69b-f3b9dbddcd4b"><button>Here is My life</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--SKILL CARD-->
+  <section class="sekcia">
+    <div class="kontainer">
+      <div class="karta">
+        <div class="krabica">
+          <div>
+            <div class="percenta">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>90<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text">Html</div>
+      </div>
+      <div class="karta">
+          <div class="krabica">
+            <div>
+              <div class="percenta">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>82<span>%</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text">CSS</div>
+      </div>
+      <div class="karta">
+        <div class="krabica">
+          <div>
+            <div class="percenta">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>32<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text">Javascript</div>
+      </div>
+    </div>
+  </section>
+<!--Contact icons in footer-->
+  <footer>
+    <section class="footerSection">
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+      <ul>
+        <li><a href="https://twitter.com/simbosi98/"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/%C5%A1imon-%C5%A1ittenhelm-994222226/"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="mailto:simon.sittenhelm@gmail.com"><i class="fas fa-at"></i></a></li>
+        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+      </ul>
+    </section>
+  </footer>
+
+
+  <script>
+      function myFunction(x)
+      {
+          x.classList.toggle("change");
+      }
+
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+      }
+  </script>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+  integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="jquery-3.6.0.js"></script>
+  <script src="script.js"></script>
+  <script src="app.js"></script>
+</body>
+
+
+</html>
